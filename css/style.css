@@ -23,7 +23,6 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 .header-container{
     width: 100%;
@@ -63,4 +62,51 @@ nav{
     padding: 5px 20px;
     text-decoration: none;
     
+}
+/* ZONA JUMBO(IMMAGINE CENTRALE) E TESTO */
+.jumbo-background{
+    background-color: #9dbeda;
+    height: 950px;
+}
+.jumbo-container{
+    width: 85%;
+    margin: auto 0;
+}
+.jumbo-title{
+    padding-top: 190px;
+    font-size: 90px;
+}
+.jumbo-text{
+    width: 30%;
+    padding-top: 45px;
+}
+.jumbo-subtitle{
+    font-weight: bold;
+}
+.jumbo-button{
+    margin-top: 40px;
+}
+.jumbo-bt{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.button-subtitle{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.jumbo-arrow{
+    padding-top: 60px;
+}
+
+.jumbo-image{
+    width: 70%;
+    padding-top: 45px;
+    padding-left: 60px;
+}
+
+.jumbo-img{
+    width: 90%;
 }
