@@ -121,3 +121,63 @@ nav{
     font-size: 45px;
     padding-top: 180px;
 }
+.subscription{
+    padding-top: 50px;
+}
+.radio-button{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px solid #0061ff;
+    font-size: 0px;
+    vertical-align: middle;
+    color: white;
+}
+.empty{
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+.col-fix{
+        display: flex;
+        justify-content: space-between;
+        height: 1000px;
+}
+.col{
+    width: calc(90% / 3);
+    margin-top: 40px;
+    border: 1px solid grey;
+}
+.sub-header{
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+.sub-container{
+    width: 85%;
+    margin: 0 auto;
+}
+/* piani sottoscrivibili */
+.sub-title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.sub-price{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sub-length{
+    color: grey;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.sub-advantages li{
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
