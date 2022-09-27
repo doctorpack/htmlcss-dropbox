@@ -6,6 +6,10 @@
 body{
     font-family:'Open Sans', sans-serif;
 }
+.margin-page-fix{
+    margin-left: 250px;
+    margin-right: 250px;
+}
 .flex-container{
     display: flex;
 }
@@ -66,7 +70,7 @@ nav{
 /* ZONA JUMBO(IMMAGINE CENTRALE) E TESTO */
 .jumbo-background{
     background-color: #9dbeda;
-    height: 950px;
+    height: 755px;
 }
 .jumbo-container{
     width: 85%;
@@ -74,7 +78,7 @@ nav{
 }
 .jumbo-title{
     padding-top: 190px;
-    font-size: 90px;
+    font-size: 60px;
 }
 .jumbo-text{
     width: 30%;
@@ -108,7 +112,7 @@ nav{
 }
 
 .jumbo-img{
-    width: 90%;
+    width: 700px;
 }
 
 /* CONTENUTO MAIN  */
@@ -187,8 +191,9 @@ nav{
 .sub-btn{
     background-color: #0061ff;
     color: white;
-    padding: 5px 75px;
     text-decoration: none;
+    font-size: 14px;
+    padding: 3px;
 }
 
 
@@ -264,11 +269,11 @@ nav{
     text-align: center;
 }
 
-.sales-btn{
+.sales-btn-fix{
     background-color: #0061ff;
     color: white;
-    padding: 5px 50px;
     text-decoration: none;
+    font-size: 14px
 }
 
 
